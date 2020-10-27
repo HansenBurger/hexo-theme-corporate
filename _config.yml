@@ -1,11 +1,10 @@
 # Header Menu
 menu:
   Home: /
-  Projects: /projects/
-  Blog: /archives/ # can set archive-dir in root config to custom value
-  Contact: /contact/
-  About: /about/
-   
+  People: /about/
+  Research: /research/ # can set archive-dir in root config to custom value
+  Publication: /archives/
+
 rss: /atom.xml
 
 # Content
@@ -13,9 +12,9 @@ excerpt_link: Read More
 fancybox: true # whether or not to load the fancybox library
 
 # Integrations
-disqus_shortname: 
+disqus_shortname:
 google_analytics:
-swiftype_install_key: 
+swiftype_install_key:
 
 # Social
 social:
@@ -27,7 +26,7 @@ social:
   stackoverflow: http://stackoverflow.com/users/2480493/patrick-steadman
 
 # Miscellaneous
-color_scheme: red   # options: blue, gray, green, orange, red, turquoise
+color_scheme: blue # options: blue, gray, green, orange, red, turquoise
 favicon: /favicon.ico # path from root of hexo site
 twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/settings/widgets
 twitter_username: computerlab_ # twitter username without the @
@@ -40,5 +39,5 @@ address_1: 140 Metropolitan Avenue
 address_2: 5th Floor
 address_3: Brooklyn, NY 11249
 skype: ptsteadman
-lat: 40.715911 
+lat: 40.715911
 long: -73.962147
