@@ -3,8 +3,9 @@
     <li><a href="/">Home</a></li>
     <li class="active">Publication</li>
   </ul>
-<div id="main">
-  <h1>Publication</h1>
-  <%- partial('_partial/archive', {pagination: config.archive, index: false}) %>
-</div>
+  <div id="main">
+    <h1>Publication</h1>
+    <%- partial('_partial/archive', {pagination: config.archive, index: false,
+    showLatest:false}) %>
+  </div>
 </div>

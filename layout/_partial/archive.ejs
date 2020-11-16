@@ -16,19 +16,19 @@
       <% } else { %>
       <section class="archives-wrap">
         <div class="archives">
-          <% page.posts.each(function(post, i){ %> <%- partial('archive-post',
-          {post: post, even: i % 2 == 0, index: index}) %> <% }) %>
+          <% if(showLatest == false) {%> <% page.posts.each(function(post, i){
+          %> <%- partial('archive-post', {post: post, even: i % 2 == 0, index:
+          index}) %> <% }) %> <% } else { %> <%
+          page.posts.slice(-4,-1).each(function(post, i){ %> <%-
+          partial('archive-post', {post: post, even: i % 2 == 0, index: index})
+          %> <% }) %> <% } %>
         </div>
-        <!-- <% if (page.posts.length){ %>
-      <div id="page-nav" class="pagination">
-	<%- paginator({
-	  prev_text: 'Prev',
-	  next_text: 'Next'
-          }) %>
-      </div>
-    <% } %> -->
       </section>
-      <% } %>
+      <% if (showLatest == true) {%>
+      <h4 style="padding-left: 10px; padding-bottom: 15px">
+        <a href="/archives">See All</a>
+      </h4>
+      <% } %> <% } %>
     </div>
     <% if(index == false){ %>
     <div class="col-md-3 col-sm-3 blog-sidebar"><%- partial('sidebar') %></div>

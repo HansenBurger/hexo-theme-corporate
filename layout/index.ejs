@@ -1,13 +1,11 @@
-<% if(page.content){ %>
-  <%- page.content %>
-<% } else { %>
-  <div class="container">
-    <ul class="breadcrumb">
-      <li class="active">Home</li>
-    </ul>
+<% if(page.content){ %> <%- page.content %> <% } else { %>
+<div class="container">
+  <ul class="breadcrumb">
+    <li class="active">Home</li>
+  </ul>
   <div id="main">
-    <%- partial('_partial/archive', {pagination: config.archive, index: true}) %>
+    <%- partial('_partial/archive', {pagination: config.archive, index: true,
+    showLatest:true}) %>
   </div>
-  </div>
+</div>
 <% } %>
-
