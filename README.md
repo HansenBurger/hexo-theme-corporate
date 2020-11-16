@@ -109,13 +109,13 @@ twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/
 twitter_username: computerlab_ # twitter username without the @
 default_author: Anonymous
 
-about: Computer Lab is a software development and marketing company based in Brooklyn, New York. <br><br> Computer Lab was founded in 2015, and is focused on so on and so forth.
-phone: 716-472-4484
-email: ptsteadman@gmail.com
-address_1: 140 Metropolitan Avenue
+about: This lab was found in XXXXX , the main staffs are xxxxx , you can learn more in xxxx .<br><br> XXXXXX-xxxxx-xxxXXXXX
+phone: XXXX-XXXXXXXX
+email: xxxxxxxxx@email.com
+address_1: Infomation building
 address_2: 5th Floor
-address_3: Brooklyn, NY 11249
-skype: ptsteadman
+address_3: D517 B505
+skype: none
 lat: 40.715911 
 long: -73.962147
 ```
