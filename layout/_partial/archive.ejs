@@ -19,7 +19,7 @@
           <% if(showLatest == false) {%> <% page.posts.each(function(post, i){
           %> <%- partial('archive-post', {post: post, even: i % 2 == 0, index:
           index}) %> <% }) %> <% } else { %> <%
-          page.posts.slice(-4,-1).each(function(post, i){ %> <%-
+          page.posts.slice(0,3).each(function(post, i){ %> <%-
           partial('archive-post', {post: post, even: i % 2 == 0, index: index})
           %> <% }) %> <% } %>
         </div>

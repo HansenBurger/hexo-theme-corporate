@@ -1,9 +1,10 @@
 # Header Menu
 menu:
-  Home: /
-  People: /about/
-  Research: /research/ # can set archive-dir in root config to custom value
-  Publication: /archives/
+  主页: /
+  团队: /about/
+  研究工作: /research/ # can set archive-dir in root config to custom value
+  学术成果: /archives/
+  新闻: /news/
 
 rss: /atom.xml
 
