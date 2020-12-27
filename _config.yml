@@ -3,8 +3,8 @@ menu:
   主页: /
   团队: /about/
   研究工作: /research/ # can set archive-dir in root config to custom value
-  学术成果: /archives/
-  新闻: /news/
+  学术成果: /publication/
+  新闻: /archives/
 
 rss: /atom.xml
 

@@ -14,8 +14,6 @@
     </nav>
   <% } %> -->
       <% } else { %>
-      <section class="archives-wrap">
-        <div class="archives">
           <% if(showLatest == false) {%> <% page.posts.each(function(post, i){
           %> <%- partial('archive-post', {post: post, even: i % 2 == 0, index:
           index}) %> <% }) %> <% } else { %> <%
