@@ -4,9 +4,9 @@ Template Name: Metronic - Responsive Website Template build with Twitter Bootstr
 
 /* General body settings */
 body { 
-	color: #3e4d5c; 
+	color: #181818; 
 	direction: ltr;
-	font: 400 13px 'Open Sans', Arial, sans-serif;
+	font: 400 14px 'Open Sans', Arial, sans-serif;
 	background: #fff;
 }
 
@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 10px;
 }
 h1 {
+	color: #3e4d5c;
 	margin-bottom: 15px;
 }
 .main h1 {
@@ -1436,8 +1437,8 @@ div.content-form-page .checkbox-list {
 Pre-Footer and pre-footer elements
 ***/
 .pre-footer {
-	background: #313030;
-	color: #b0b0b0;
+	background: #ffffff;
+	color: #000000;
 }
 .pre-footer .container {
 	padding-top: 45px;
@@ -1448,7 +1449,7 @@ Pre-Footer and pre-footer elements
 .pre-footer h2,
 .ecommerce .pre-footer h2 {
 	font-size: 21px;
-	color: #c2c1c1;
+	color: #3e4d5c;
 }
 .pre-footer p {
 	margin-bottom: 20px;
