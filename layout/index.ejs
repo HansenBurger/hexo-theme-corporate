@@ -8,34 +8,40 @@
       class="row"
       style="
         color: #0c0c0c;
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
-        font-size: 16px;
       "
     >
-    <div class="rows">
-      <div class="col-md-8 col-sm-8">
-        <img src="https://www.strictlyvc.com/wp-content/uploads/2014/06/synthetic-biology.jpg">
+
+      <div class="col-md-7 col-sm-7">
+        <p></p>
+        <img src="https://www.strictlyvc.com/wp-content/uploads/2014/06/synthetic-biology.jpg" width="650" class="img-responsive">
       </div>
-      <div class="col-md-4 col-sm-4">
+
+      <div class="col-md-5 col-sm-5">
         <h2>
           <b>
             LuckyCloud laboratory
           </b>
         </h2>
-        <h4>地点：浙江工业大学</h4>
-        <h4>简介：Lorem ipsum dolor sit amet, vocibus habemus appetere te est. 
-          Sit id nobis euismod epicuri, nam no ubique probatus. 
-          Usu ex platonem delicata torquatos, eu duis justo eum. 
-        </h4>
-        <h4>联系方式：lab_emal@email.com</h4>
+        
+        <h4>浙江工业大学</h4>
+
+        <span style="font-size: 16px;">
+          LuckyCloud实验室专注于人工智能、大数据、信号处理技术在医学等领域的应用。
+          近年来，重点围绕医学领域的痛点，开展了医学图像处理、智能重症医学、神经外科手术导航等领域的研究。</br>
+          与美国哈佛大学医学院、德国洪堡大学Charite医学中心、解放军总医院、浙江大学医学院附属邵逸夫医院等国际国内顶尖医疗机构建立了深度合作关系，
+          也与多家领域内知名企业建立了合作关系。承担国家自然科学基金面上项目、浙江省科技厅重点研发项目等科研项目。
+          发表论文30余篇，申请发明专利20余项。
+        </span>
 
       </div>
     </div>
     <hr class="blog-post-sep" />
-    <div class="rows"></div>
-    <%- partial('_partial/archive', {pagination: config.archive, index: true,
-    showLatest:true}) %>
+
+      <%- partial('_partial/archive', {pagination: config.archive, index: true,
+      showLatest:true}) %>
+    
   </div>
 </div>
 <% } %>
